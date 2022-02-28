@@ -1,5 +1,5 @@
-x = [1 , -5, 9, 23, 12, 1]
-
+y = [1 , -5, 9, 23, 12, 1]
+x=y.copy()
 index = x.index(12)
 x.insert(index,'reza')
 print(x)
@@ -11,3 +11,4 @@ print(x)
 x.pop(0)
 x.insert(0,'ali')
 print(x)
+print(y)
